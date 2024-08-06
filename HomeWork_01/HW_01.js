@@ -1,6 +1,6 @@
 // - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
 // Вивести кожну змінну за допомогою: console.log
-let text1= 'hello';
+let text1 = 'hello';
 console.log(text1);
 let text2 = 'owu';
 console.log(text2);
@@ -27,7 +27,7 @@ console.log(numb7);
 let bool1 = true;
 console.log(bool1);
 
-let bool2= false;
+let bool2 = false;
 console.log(bool2);
 
 // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
