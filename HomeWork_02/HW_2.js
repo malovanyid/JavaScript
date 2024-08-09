@@ -133,31 +133,55 @@ console.log(people[9].password);
 
 const temperatures = [
     {
-        day: "Day 1", morning: 15, afternoon: 22, evening: 18
+        day: "Day 1",
+        morning: 15,
+        afternoon: 22,
+        evening: 18
     },
     {
-        day: "Day 2", morning: 16, afternoon: 24, evening: 19
+        day: "Day 2",
+        morning: 16,
+        afternoon: 24,
+        evening: 19
     },
     {
-        day: "Day 3", morning: 14, afternoon: 23, evening: 17
+        day: "Day 3",
+        morning: 14,
+        afternoon: 23,
+        evening: 17
     },
     {
-        day: "Day 4", morning: 15, afternoon: 21, evening: 18
+        day: "Day 4",
+        morning: 15,
+        afternoon: 21,
+        evening: 18
     },
     {
-        day: "Day 5", morning: 17, afternoon: 25, evening: 20
+        day: "Day 5",
+        morning: 17,
+        afternoon: 25,
+        evening: 20
     },
     {
-        day: "Day 6", morning: 16, afternoon: 22, evening: 19
+        day: "Day 6",
+        morning: 16,
+        afternoon: 22,
+        evening: 19
     },
     {
-        day: "Day 7", morning: 15, afternoon: 23, evening: 18
+        day: "Day 7",
+        morning: 15,
+        afternoon: 23,
+        evening: 18
     }
 ];
-
 console.log(temperatures[0].morning);
 
+// Логічні розгалуження:
 
+// - Є змінна х, якій ви надаєте довільне числове значення.
+// Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'.
+// Перевірте  скрипт при a, що дорівнює 1, 0, -3
 
 
 
