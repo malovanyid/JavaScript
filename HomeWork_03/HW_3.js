@@ -14,7 +14,7 @@ for (let i = 1; i <= 10; i++) {
 
 // 3 - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
-for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 20; i++) {
     document.write('<h1>Headline</h1>');
     console.log('Headline')
 }
