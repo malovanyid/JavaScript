@@ -58,22 +58,22 @@ document.write('</ul>');
 //
 let products = [
     {
-        title: 'milk',
+        title: 'Milk',
         price: 22,
         image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
     },
     {
-        title: 'juice',
+        title: 'Juice',
         price: 27,
         image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
     },
     {
-        title: 'tomato',
+        title: 'Tomato',
         price: 47,
         image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
     },
     {
-        title: 'tea',
+        title: 'Tea',
         price: 15,
         image: 'https://www.yogi-life.com/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FXHqBU0wS72zbVUJv022K&w=1080&q=75'
     },
