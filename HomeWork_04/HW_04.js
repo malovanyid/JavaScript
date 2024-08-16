@@ -1,15 +1,40 @@
 // #I2XsG6f
 // 1 створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
-// #ETGAxbEn8l
+function square (a, b) {
+    let square = a * b;
+    return square;
+}
+let result = square (10, 20);
+console.log (result);
+
 // 2 створити функцію яка обчислює та повертає площу кола з радіусом r
+function roundSquare (radius) {
+    return Math.PI * radius * radius;
+}
+
 // #Mbiz5K4yFe7
 // 3 створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
+function squareCilinder (radius, height) {
+    return 2 * Math.PI * radius * height
+}
+console.log(squareCilinder (5, 10));
+
 // #SIdMd0hQ
 // 4 створити функцію яка приймає масив та виводить кожен його елемент
+
+function printArrayElements(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+}
+let myArray = ['яблуко', 'банан', 'апельсин', 'груша'];
+printArrayElements(myArray);
+
 // #59g0IsA
 // 5 створити функцію яка створює параграф з текстом та виводить його через document.write. Текст задати через аргумент
 // #hOL6126
-// 6 створити функцію яка створює ul з трьома елементами li та виводить його через document.write. Текст li задати через аргумент всім однаковий
+// 6 створити функцію яка створює ul з трьома елементами li та виводить його через document.write.
+// Текст li задати через аргумент всім однаковий
 // #0Kxco1edSN
 // 7 створити функцію яка створює ul з  елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл) та виводить його через document.write
 // #gEFoxMMO
