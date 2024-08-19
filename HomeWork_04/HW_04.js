@@ -41,8 +41,22 @@ printArrayElements(myArray);
 // 8 створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список (ul li) та виводить його через document.write
 // #bovDJDTIjt
 // 9 створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+
 //     #pghbnSB
 // 10 створити функцію яка повертає найменьше число з масиву
+    function MinValue(numbers) {
+        let min = numbers[0];
+        for (let i = 1; i < numbers.length; i++) {
+            let num = numbers[i]
+            if (num < min) {
+                min = num;
+            }
+        }
+        return min;
+    }
+    // let numbers= [];
+    console.log(MinValue([5, 33, 9, 1, 64]));
+
 // #EKRNVPM
 // 11 створити функцію sum(arr) яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
 // #kpsbSQCt2Lf
