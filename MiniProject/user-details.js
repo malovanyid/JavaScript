@@ -20,7 +20,6 @@ function loadUserPosts(userId) {
         .then(posts => {
             const postsContainer = document.getElementById('posts-container');
             postsContainer.innerHTML = '';
-
             posts.forEach(post => {
                 const postCard = document.createElement('div');
                 postCard.className = 'post-card';
